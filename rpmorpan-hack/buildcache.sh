@@ -1,5 +1,6 @@
 #!/bin/bash
 # This script requires rpmorphan package installed.
+# The hack is based on static and unchangeable cache file name for the whole rpmorphan package.
 rpmdir=$1
 rh_cache="/tmp/rpmorphan.cache"
 if [ -e $rh_cache ]
